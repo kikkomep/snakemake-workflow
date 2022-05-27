@@ -12,7 +12,7 @@ min_version("6.5.0")
 include: "rules/common.smk"
 
 #### configure environment ####
-configfile: "config/default.yaml"
+# configfile: "config/default.yaml"
 
 #### Main target rule ####
 rule all:
