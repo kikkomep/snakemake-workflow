@@ -15,5 +15,7 @@ include: "rules/common.smk"
 rule all:
     conda:
         "envs/default.yaml"
+    log:
+        "logs/hello.log"
     script:
 	    "scripts/hello.py"
