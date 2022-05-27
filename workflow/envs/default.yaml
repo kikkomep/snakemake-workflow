@@ -10,7 +10,7 @@
 # of your local environment through the command: `snakedeploy update-conda-envs envs/default.yaml`
 
 # Example
-# name: stats
-# dependencies:
-#   - numpy
-#   - pandas
+channel_priority: strict
+channels:
+  - conda-forge
+  - defaults
