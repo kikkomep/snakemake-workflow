@@ -39,16 +39,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # - uses: conda-incubator/setup-miniconda@v2
-    #   with:
-    #     python-version: "3.10"
-    #     # mamba-version: "*"
-    #     channels: bioconda,conda-forge,defaults
-    #     channel-priority: strict
-        # miniforge-variant: "Mambaforge"
-        # miniforge-version: "4.11.0-0"
-        # use-mamba: true
-
     - name: Test workflow
       uses: snakemake/snakemake-github-action@v1.24.0
       with:

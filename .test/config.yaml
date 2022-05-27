@@ -18,4 +18,3 @@
 # ```
 
 # See https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html for more details.
-channel_priority: true
