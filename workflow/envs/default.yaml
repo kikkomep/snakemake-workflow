@@ -10,7 +10,7 @@
 # of your local environment through the command: `snakedeploy update-conda-envs envs/default.yaml`
 
 # Example
-# channel_priority: true
+channel_priority: true
 # channels:
 #   - bioconda
 #   - conda-forge
