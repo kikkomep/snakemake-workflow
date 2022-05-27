@@ -5,8 +5,8 @@
 # in particular regarding the standardized folder structure mentioned there. 
 
 ##### set minimum snakemake version #####
-# from snakemake.utils import min_version
-# min_version("6.5.0")
+from snakemake.utils import min_version
+min_version("6.5.0")
 
 #### load rules #####
 include: "rules/common.smk"
