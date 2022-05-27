@@ -1,0 +1,16 @@
+##### Define the environment required to configure/run the workflow. #####
+
+# An environment file can be automagically initialized
+# by freezing your local environment to a certain state
+# through the command: `akedeploy pin-conda-envs envs/default.yaml`
+# See the docs at https://snakemake.readthedocs.io/en/stable/snakefiles/deployment.html#freezing-environments-to-exactly-pinned-packages
+# for more details.
+
+# An existing environment file can be updated according the current state
+# of your local environment through the command: `snakedeploy update-conda-envs envs/default.yaml`
+
+# Example
+# name: stats
+# dependencies:
+#   - numpy
+#   - pandas
