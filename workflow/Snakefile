@@ -16,8 +16,8 @@ include: "rules/common.smk"
 
 #### Main target rule ####
 rule all:
-    conda:
-        "envs/default.yaml"
+    # conda:
+    #     "envs/default.yaml"
     log:
         "logs/hello.log"
     script:
