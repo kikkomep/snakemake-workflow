@@ -1,10 +1,8 @@
 #### Main entrypoint of the workflow ####
 
-
 # It has been generated following the best practices available at
 # https://snakemake.readthedocs.io/en/stable/snakefiles/best_practices.html,
 # in particular regarding the standardized folder structure mentioned there. 
-
 
 ##### set minimum snakemake version #####
 # from snakemake.utils import min_version
@@ -14,6 +12,8 @@
 include: "rules/common.smk"
 
 #### Main target rule ####
-rule all:    
+rule all:
+    conda:
+        "envs/default.yaml"
     script:
 	    "scripts/hello.py"
