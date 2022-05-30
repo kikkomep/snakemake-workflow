@@ -40,5 +40,5 @@ push:
       update_registries: [WorkflowHub Dev]
       enable_notifications: true
     - name: "*.*.*"
-      update_registries: [WorkflowHub Dev]
+      update_registries: [wfhubdev]
       enable_notifications: true
