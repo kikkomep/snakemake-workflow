@@ -1,0 +1,36 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2022-05-30T15:32:46+00:00",
+            "hasPart": [
+                {
+                    "@id": "lifemonitor.yaml"
+                },
+                {
+                    "@id": "workflow.ga"
+                }
+            ]
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "lifemonitor.yaml",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow.ga",
+            "@type": "File"
+        }
+    ]
+}
