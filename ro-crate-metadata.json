@@ -1,0 +1,219 @@
+{
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "GithubService": "https://w3id.org/ro/terms/test#GithubService",
+            "JenkinsService": "https://w3id.org/ro/terms/test#JenkinsService",
+            "PlanemoEngine": "https://w3id.org/ro/terms/test#PlanemoEngine",
+            "TestDefinition": "https://w3id.org/ro/terms/test#TestDefinition",
+            "TestInstance": "https://w3id.org/ro/terms/test#TestInstance",
+            "TestService": "https://w3id.org/ro/terms/test#TestService",
+            "TestSuite": "https://w3id.org/ro/terms/test#TestSuite",
+            "TravisService": "https://w3id.org/ro/terms/test#TravisService",
+            "definition": "https://w3id.org/ro/terms/test#definition",
+            "engineVersion": "https://w3id.org/ro/terms/test#engineVersion",
+            "instance": "https://w3id.org/ro/terms/test#instance",
+            "resource": "https://w3id.org/ro/terms/test#resource",
+            "runsOn": "https://w3id.org/ro/terms/test#runsOn"
+        }
+    ],
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2022-05-30T22:31:34+00:00",
+            "hasPart": [
+                {
+                    "@id": "workflow/Snakefile"
+                },
+                {
+                    "@id": "LICENSE"
+                },
+                {
+                    "@id": "README.md"
+                },
+                {
+                    "@id": "workflow/"
+                },
+                {
+                    "@id": "workflow/documentation.md"
+                },
+                {
+                    "@id": "config/"
+                },
+                {
+                    "@id": "config/default.yaml"
+                },
+                {
+                    "@id": "workflow/rules/"
+                },
+                {
+                    "@id": "workflow/rules/common.smk"
+                },
+                {
+                    "@id": "workflow/envs/"
+                },
+                {
+                    "@id": "workflow/envs/default.yaml"
+                },
+                {
+                    "@id": "workflow/scripts/"
+                },
+                {
+                    "@id": "workflow/scripts/hello.py"
+                },
+                {
+                    "@id": "workflow/notebooks/"
+                },
+                {
+                    "@id": "workflow/notebooks/notebook.ipynb"
+                }
+            ],
+            "isBasedOn": "https://github.com/kikkomep/snakemake-workflow",
+            "license": "MIT",
+            "mainEntity": {
+                "@id": "workflow/Snakefile"
+            },
+            "mentions": [
+                {
+                    "@id": "#4340823e-0410-4c17-b4da-9927b59904f2"
+                }
+            ],
+            "name": "MyX"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": [
+                {
+                    "@id": "https://w3id.org/ro/crate/1.1"
+                },
+                {
+                    "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+                }
+            ]
+        },
+        {
+            "@id": "workflow/Snakefile",
+            "@type": [
+                "File",
+                "SoftwareSourceCode",
+                "ComputationalWorkflow"
+            ],
+            "name": "MyX",
+            "programmingLanguage": {
+                "@id": "https://w3id.org/workflowhub/workflow-ro-crate#snakemake"
+            },
+            "url": "https://github.com/kikkomep/snakemake-workflow",
+            "version": "main"
+        },
+        {
+            "@id": "https://w3id.org/workflowhub/workflow-ro-crate#snakemake",
+            "@type": "ComputerLanguage",
+            "identifier": {
+                "@id": "https://doi.org/10.1093/bioinformatics/bts480"
+            },
+            "name": "Snakemake",
+            "url": {
+                "@id": "https://snakemake.readthedocs.io"
+            },
+            "version": "0.6.5"
+        },
+        {
+            "@id": "LICENSE",
+            "@type": "File"
+        },
+        {
+            "@id": "README.md",
+            "@type": "File"
+        },
+        {
+            "@id": "#4340823e-0410-4c17-b4da-9927b59904f2",
+            "@type": "TestSuite",
+            "instance": [
+                {
+                    "@id": "#d5ed9a4b-bfaf-4a9f-a36a-507171a45d4b"
+                }
+            ],
+            "mainEntity": {
+                "@id": "workflow/Snakefile"
+            },
+            "name": "MyX test suite"
+        },
+        {
+            "@id": "#d5ed9a4b-bfaf-4a9f-a36a-507171a45d4b",
+            "@type": "TestInstance",
+            "name": "GitHub testing workflow for MyX",
+            "resource": "repos/kikkomep/snakemake-workflow/actions/workflows/main.yml",
+            "runsOn": {
+                "@id": "https://w3id.org/ro/terms/test#GithubService"
+            },
+            "url": "https://api.github.com"
+        },
+        {
+            "@id": "https://w3id.org/ro/terms/test#GithubService",
+            "@type": "TestService",
+            "name": "Github Actions",
+            "url": {
+                "@id": "https://github.com"
+            }
+        },
+        {
+            "@id": "workflow/",
+            "@type": "Dataset",
+            "description": "Workflow folder"
+        },
+        {
+            "@id": "workflow/documentation.md",
+            "@type": "File"
+        },
+        {
+            "@id": "config/",
+            "@type": "Dataset",
+            "description": "Configuration folder"
+        },
+        {
+            "@id": "config/default.yaml",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/rules/",
+            "@type": "Dataset",
+            "description": "Workflow rule module"
+        },
+        {
+            "@id": "workflow/rules/common.smk",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/envs/",
+            "@type": "Dataset",
+            "description": "Conda environments"
+        },
+        {
+            "@id": "workflow/envs/default.yaml",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/scripts/",
+            "@type": "Dataset",
+            "description": "Scripts folder"
+        },
+        {
+            "@id": "workflow/scripts/hello.py",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/notebooks/",
+            "@type": "Dataset",
+            "description": "Notebooks folder"
+        },
+        {
+            "@id": "workflow/notebooks/notebook.ipynb",
+            "@type": "File"
+        }
+    ]
+}
