@@ -1,0 +1,211 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2022-05-30T06:31:25+00:00",
+            "hasPart": [
+                {
+                    "@id": "config/"
+                },
+                {
+                    "@id": ".test/"
+                },
+                {
+                    "@id": "logs/"
+                },
+                {
+                    "@id": "workflow/"
+                },
+                {
+                    "@id": ".github/"
+                },
+                {
+                    "@id": "LICENSE"
+                },
+                {
+                    "@id": ".snakemake-workflow-catalog.yml"
+                },
+                {
+                    "@id": ".gitignore"
+                },
+                {
+                    "@id": "README.md"
+                },
+                {
+                    "@id": "lifemonitor.yaml"
+                },
+                {
+                    "@id": "config/default.yaml"
+                },
+                {
+                    "@id": ".test/config.yaml"
+                },
+                {
+                    "@id": "logs/hello.log"
+                },
+                {
+                    "@id": "workflow/scripts/"
+                },
+                {
+                    "@id": "workflow/rules/"
+                },
+                {
+                    "@id": "workflow/envs/"
+                },
+                {
+                    "@id": "workflow/notebooks/"
+                },
+                {
+                    "@id": "workflow/Snakefile"
+                },
+                {
+                    "@id": "workflow/documentation.md"
+                },
+                {
+                    "@id": "workflow/scripts/hello.py"
+                },
+                {
+                    "@id": "workflow/rules/common.smk"
+                },
+                {
+                    "@id": "workflow/envs/default.yaml"
+                },
+                {
+                    "@id": "workflow/notebooks/notebook.ipynb"
+                },
+                {
+                    "@id": ".github/workflows/"
+                },
+                {
+                    "@id": ".github/workflows/conventional-prs.yml"
+                },
+                {
+                    "@id": ".github/workflows/release-please.yml"
+                },
+                {
+                    "@id": ".github/workflows/main.yml"
+                }
+            ]
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "config/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": ".test/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "logs/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "workflow/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": ".github/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "LICENSE",
+            "@type": "File"
+        },
+        {
+            "@id": ".snakemake-workflow-catalog.yml",
+            "@type": "File"
+        },
+        {
+            "@id": ".gitignore",
+            "@type": "File"
+        },
+        {
+            "@id": "README.md",
+            "@type": "File"
+        },
+        {
+            "@id": "lifemonitor.yaml",
+            "@type": "File"
+        },
+        {
+            "@id": "config/default.yaml",
+            "@type": "File"
+        },
+        {
+            "@id": ".test/config.yaml",
+            "@type": "File"
+        },
+        {
+            "@id": "logs/hello.log",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/scripts/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "workflow/rules/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "workflow/envs/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "workflow/notebooks/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "workflow/Snakefile",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/documentation.md",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/scripts/hello.py",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/rules/common.smk",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/envs/default.yaml",
+            "@type": "File"
+        },
+        {
+            "@id": "workflow/notebooks/notebook.ipynb",
+            "@type": "File"
+        },
+        {
+            "@id": ".github/workflows/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": ".github/workflows/conventional-prs.yml",
+            "@type": "File"
+        },
+        {
+            "@id": ".github/workflows/release-please.yml",
+            "@type": "File"
+        },
+        {
+            "@id": ".github/workflows/main.yml",
+            "@type": "File"
+        }
+    ]
+}
